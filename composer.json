@@ -1,0 +1,22 @@
+{
+    "name": "yauhenko/anviz-facepasspro-sdk",
+	"description": "Anviz FacePass Pro PHP-SDK (firmware version 2.2.8)",
+	"version": "0.1.0",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-curl": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"Yauhenko\\Anviz\\": "./src"
+		}
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yauheni Kiryienkau",
+            "email": "ya@redstream.by"
+        }
+    ]
+}
